@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=El+Messiri&family=Italianno&family=Lora&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -352,16 +351,17 @@
   position: relative;
   overflow: hidden !important;
 }
-
-.home .banner{
-  color:#fff;
-  font-size: 5rem;
-  text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+.home .banner {
+  color: #1a0852;
+  font-size: 22rem;
+  font-family: 'Italianno', cursive;
+  text-shadow: 0 0.3rem 2.5rem rgb(26 8 82);
 }
 
 .home .slogan{
-  color:#eee;
+  color:rgb(6, 120, 173);
   font-size: 2.5rem;
+  font-family: 'Aclonica', sans-serif;
   font-weight: 400;
 }
 
@@ -375,6 +375,7 @@
   outline: none;
   margin-top: 1rem;
   font-size: 2rem;
+  font-family: 'Lora', serif;
   font-weight: 400;
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
 }
@@ -390,6 +391,7 @@
   height:11rem;
   width: 100%;
   background: url(./wave.png);
+ 
 
 
   background-size: 100rem 11rem;
@@ -457,7 +459,7 @@
     }
   
     .home .banner{
-      font-size: 4rem;
+      font-size: 9rem;
     }
   
     .home .slogan{
@@ -741,15 +743,19 @@ border-color: transparent transparent transparent #E94B3C;
 .container .content h2 {
   margin: 0 0 10px 0;
   font-size: 18px;
-  font-weight: normal;
+  
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 1000;
   color: #E94B3C;
 }
 
 .container .content p {
   margin: 0;
   font-size: 16px;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 500;
   line-height: 22px;
-  color: #00b8ff;
+  color: white;
 }
 
 @media (max-width: 767.98px) {
@@ -834,6 +840,7 @@ border-color: transparent transparent transparent #E94B3C;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 18px;
+    font-family: 'Lora', serif;
     letter-spacing: 2px;
     border-radius: 40px;
     /* overflow: hidden; */
@@ -841,9 +848,11 @@ border-color: transparent transparent transparent #E94B3C;
 
 }
 
+
+
 .button #r-btn:nth-child(2)
 {
-    background: linear-gradient(90deg, #755bea ,#ff72c0);
+    background: linear-gradient(90deg, #0162c8,#55e7fc);
 }
 
 
@@ -957,6 +966,7 @@ border-color: transparent transparent transparent #E94B3C;
 }
 .profile-text1 .title1{
     font-size:3.5em;
+    font-family: 'Lora', serif;
     font-weight:400;
     color:#333;
     letter-spacing: 1.5px;
@@ -1093,9 +1103,16 @@ border-color: transparent transparent transparent #E94B3C;
   font-size: 1.5em;
 
 }
+.blue .social-icons1 li a {
+  display: block;
+  padding: 5px 10px 5px 10px;
+
 
 
 }
+
+}
+
 
 /* <!-- -----------------------------------------section 4 starts-------------------------------------------------- -->*/
 
@@ -1116,6 +1133,7 @@ footer {
 }
 footer .address h5{
   font-size: 12px;
+  font-family: 'Lora', serif;
   color: #eee;
 }
 
