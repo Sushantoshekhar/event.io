@@ -25,7 +25,7 @@
      <!-- /* --------------------------------------navigation bar styling starts--------------------------- */ -->
 
    <!-- <section class="wrapper"> -->
-    <header>
+    <header id="navbar">
     
         <input type="checkbox" id="show-search">
         <input type="checkbox" id="show-menu"> 
@@ -116,19 +116,32 @@
 
 
   <!-- /* -------------------------- section one starts-------------------------------- */ -->
-  <section >
-    <div class="content1">
-        <h2>Hello   BIT</h2>
-    </div>
+  <section id="home" class="home">
 
-
-</section>
-
+    <h1 class="banner">HELLO BIT</h1>
+    <h3 class="slogan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, necessitatibus.</h3>
+    <a href="#about"><button>Get started</button></a>
+    
+    
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    
+    
+    <div class="fas fa-dharmachakra nut1"></div>
+    
+    <div class="fas fa-dharmachakra nut2"></div>
+    
+    
+    
+    
+    </section>
+    
 
 
 <!-- /* -------------------------- section one ends-------------------------------- */ -->
 
-<div class="timeline">
+<!-- <div class="timeline">
     <div class="container left animated fadeInUp second-1">
      
       <div class="content">
@@ -164,35 +177,23 @@
         </div>
     </div>
 
-    <!-- <div class="container left animated fadeInUp second-5">
-        <div class="content">
-            <h2>1-5<br> <span>YRS</span></h2>
-            <div class="icon"><img src="icon-5.png" alt=""></div>
-            <div class="divider"></div>
-            <p class="text">Lower risk of heart disease and stroker</p>
-        </div>
-    </div>
-    <div class="container right animated fadeInUp second-6">
-        <div class="content">
-            <h2>10<br> <span>YRS</span></h2>
-            <div class="icon"><img src="icon-6.png" alt=""></div>
-            <div class="divider"></div>
-            <p class="text">Risk of heart disease is same as of a non-smoker</p>
-        </div>
-    </div>-->
-</div> 
+   
+</div>  -->
 
 <!-- -----------------------------------------section 3 starts-------------------------------------------------- -->
-<button>
+<section class="button">
 <a id="r-btn" href="#">Rule Book</a>
 
     <a id="r-btn" href="#">Submit</a>
-</button>
+</section>
      <!-- -----------------------------------------section 3 ends---------------------------------------------->
 
 
 <!-- -----------------------------------------section 4 starts-------------------------------------------------- -->
-<div class="contai">
+
+<section class="contai">
+
+    
     <div class="box22">
         <article class="team blue">
             <div class="photo1">
@@ -200,7 +201,7 @@
             </div>
 
             <div class="profile-text1">
-                <h1 class="title1">Abhishek</h1>
+                <h1 class="title1">LEO Abhishek</h1>
                 <span class="position1">Event Manager</span>
 
             </div>
@@ -223,7 +224,7 @@
             </div>
 
             <div class="profile-text1">
-                <h1 class="title1">Avinash</h1>
+                <h1 class="title1"> LEO Avinash</h1>
                 <span class="position1">Event Manager</span>
 
             </div>
@@ -235,7 +236,7 @@
             </ul>
         </article>
     </div>
-</div>
+</section>
 
 
 
@@ -244,6 +245,59 @@
 
 
 
+
+<!---------------------------------FOOTER SECTION STARTS ----------------------------->
+
+<footer>
+ 
+    <div class="icons">
+  <a class="btn btn-primary" style="color: azure ;" href="https://www.facebook.com/leobitsindri/" role="button"
+  ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+  
+        <a class="btn btn-primary" style="color: azure ;" href="https://www.linkedin.com/company/leobits" role="button"
+    ><i class="fab fa-linkedin-in"></i
+  ></a>
+  
+  
+  <a class="btn btn-primary" style="color: azure ;" href="https://instagram.com/leobitsindri?igshid=1rleixddpi9hv" role="button"
+  ><i class="fab fa-instagram"></i
+  ></a>
+  
+  
+  <a class="btn btn-primary" style="color: azure ;" href="https://twitter.com/leo_sindri" role="button"
+  ><i class="fab fa-twitter"></i
+  ></a>
+  
+  
+      <a class="btn btn-primary" style="color: azure ;"  role="button" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSPFdNCvhfHksZwkRzCMrSXLBbSBJZBRWvzJCKhVLXzfQVLGmlMfbwwtNPZjpLNKxNTMnsvb" class="social-icon icons" target="blank"
+          ><i class="fa fa-envelope"></i
+        ></a>
+  
+  
+        <a class="btn btn-primary" style="color: azure ;" href="https://www.youtube.com/channel/UCnsbtrBKG--VbRcb0Bo3jFQ/videos" role="button"
+    ><i class="fab fa-youtube"></i
+  ></a>
+  
+  
+    </div>
+  
+  
+    <div class="address">
+      <h5>&copy Leo Club, Bit Sindri.2022 <br> Dist-322A.</h5>
+    </div>
+  <div class="icons">
+
+           
+  
+  </footer>
+
+  <div class="credit">
+    <p>Designed and developed with <i class="fa fa-heart-o"></i> by <a href="#">Sushanto</a>
+    </p>
+</div> 
+  <!---------------------------------FOOTER SECTION ENDS ----------------------------->
 
 
 
@@ -283,6 +337,31 @@
                     
         })
     }) -->
+
+
+
+    
+<script>
+
+    // parallex script
+    var scene;
+    var parallax;
+  window.onload = function() {
+     scene = document.getElementById('scene');
+     parallax = new Parallax(scene);
+  }
+    // nav script added
+    var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+  document.getElementById('navbar').style.top = '0';
+  } else {
+  document.getElementById('navbar').style.top = '-300px';
+  }
+  prevScrollpos = currentScrollPos;
+  };
+    </script>
 
 </script>
 
