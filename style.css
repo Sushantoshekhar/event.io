@@ -277,7 +277,7 @@
     header .cont #btn{
       padding: 10px 0px 10px 0px;
       right: 11px;
-      margin-left: 3rem;
+      margin-left: -1rem;
       margin-right: -1rem;
       font-size: 20px;
       text-align: center;
@@ -338,7 +338,11 @@
 .home{
   min-height: 100vh;
   width: 100vw;
-  background:linear-gradient(purple, #6C5CE7);
+  /* background:linear-gradient(purple, #6C5CE7); */
+  background-image: url(./2012.i518.033..sea\ ocean\ wave\ lighthouse.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -386,6 +390,7 @@
   height:11rem;
   width: 100%;
   background: url(./wave.png);
+
 
   background-size: 100rem 11rem;
   background-repeat: repeat-x;
@@ -475,12 +480,20 @@
 
 
 .timeline {
+  
 	width: 540px;
 	margin: 0 auto;
 	height: 100vh;
 	background:transparent url(cigarette.png ) center 0 no-repeat;
+  /* background-color: linear-gradient(purple, #6C5CE7) ; */
+
+
+
+ 
+
 	padding-top: 18px;
-	overflow: hidden;
+	/* overflow: hidden; */
+
 }
 
 .container {
@@ -494,8 +507,8 @@
     width: 95px;
     background-color: rgb(252, 185, 0);
     height: 2px;
-    top: 17px;
-    left: 175px;
+    top: 3px;
+    left: 166px;
     margin: 13px 0 28px;
 }
 
@@ -508,8 +521,8 @@
 	position: absolute;
 	width: 12px;
 	height: 12px;
-	left: -12px;
-	top: -5px;
+  left: -15px;
+  top: -7px;
 	border: 2px solid  rgb(252, 185, 0);
 	border-radius: 50%;
 	
@@ -520,8 +533,8 @@
 	position: absolute;
 	width: 12px;
 	height: 12px;
-	right: -12px;
-	top: -5px;
+  right: -15px;
+  top: -7px;
 	border: 2px solid  rgb(252, 185, 0);
 	border-radius: 50%;
 
@@ -560,7 +573,7 @@
 	top: 8px;
 	right: -40px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #000;
 	font-weight: bold;
 	line-height: 0.7em;
@@ -612,6 +625,10 @@
         }
 
 
+
+
+
+        
 
 
 
@@ -681,9 +698,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+    height: 110vh;
     flex-wrap: wrap;
-    background: #000;
+    background-image: url(./3912196.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .box22{
@@ -694,7 +714,7 @@
 }
 .team{
     padding: 10px 0 35px;
-    margin-top: 60px;
+    margin-top: 0px;
     background: #fff;
     text-align: center;
     overflow: hidden;
@@ -833,6 +853,80 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:660px){
+
+  .team {
+    padding: 10px 0 2px;
+  }
+    
+
+  .team .photo1 {
+    
+    width: 119px;
+    height: 72px;
+  }
+
+  .box22 {
+    height: 292px;
+    width: 177px;
+    margin: 15px;
+}
+
+.profile-text1 .title1 {
+  font-size: 2.5em;
+}
+
+
+
+
+
+}
+
+
+
+@media (max-width:415px){
+
+  .team {
+    padding: 3px 0 2px;
+}
+.box22 {
+  height: 189px;
+  width: 119px;
+  margin: 4px;
+}
+
+.team .photo1 {
+  width: 91px;
+  height: 72px;
+}
+
+.profile-text1 .title1 {
+  font-size: 1.8em;
+}
+
+
+.profile-text1 .position1 {
+
+  font-size: 1.5em;
+
+}
+
+
+}
+
 /* <!-- -----------------------------------------section 4 starts-------------------------------------------------- -->*/
 
 
@@ -846,12 +940,12 @@ footer {
   padding: 12px 0;
   
   margin-bottom: 0px;
-  background: #263770;
+  /* background: #263770; */
   font-weight: 600;
   flex-wrap: wrap;
 }
 footer .address h5{
-  font-size: 15px;
+  font-size: 12px;
   color: #eee;
 }
 
@@ -861,7 +955,7 @@ footer  .icons {
   margin: 0px 0px;
   cursor: pointer;
   padding: 0px 0px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 footer .icons a{
