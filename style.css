@@ -239,8 +239,11 @@
     }
   
     header .cont .links  .icons a{
-      padding: 0px 7px;
-    }
+      padding: 0px 3px;
+      font-size: 2rem;
+  }
+
+    
   
   
   
@@ -251,6 +254,7 @@
       text-align: center;
       color: #fff;
       flex-wrap: wrap;
+      font-size: 1.5em;
       
     }
   
@@ -270,7 +274,7 @@
       font-size: 17px;
       text-align: left;
       display: block;
-      padding: 8px 90px;
+      padding: 4px 39px;
       cursor: pointer;
   }
     header .cont #btn{
@@ -378,6 +382,8 @@
   font-family: 'Lora', serif;
   font-weight: 400;
   box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+  scroll-behavior: smooth;
+  
 }
 
 .home button:hover{
@@ -729,7 +735,7 @@ border-color: transparent transparent transparent #E94B3C;
 
 .container .content {
   padding: 30px 45px;
-  background: #00000024;
+  background: #0471e38f;
   position: relative;
   /* border: 5px solid #eeeeee; */
   border-radius: 500px 0 500px 500px;
@@ -899,7 +905,7 @@ border-color: transparent transparent transparent #E94B3C;
     overflow: hidden;
     position: relative;
     box-shadow: 0 0 25px 1 px rgba(0, 0, 0,0.3);
-    background: linear-gradient(to right, #0c959f, #003cff);
+    background: linear-gradient(to right, #0c959f59, #003cff73);
     cursor: pointer;
 
     
@@ -968,7 +974,7 @@ border-color: transparent transparent transparent #E94B3C;
     font-size:3.5em;
     font-family: 'Lora', serif;
     font-weight:400;
-    color:#333;
+    color: #55e7fc9c;
     letter-spacing: 1.5px;
     text-transform: capitalize;
     margin-bottom: 6px;
@@ -979,7 +985,7 @@ border-color: transparent transparent transparent #E94B3C;
 .profile-text1 .position1{
     display: block;
     font-size: 2.5em;
-    color: #555;
+    color: #00000073;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transition: all .3s .05s ease;
 
