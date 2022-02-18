@@ -342,7 +342,7 @@
   min-height: 100vh;
   width: 100vw;
   /* background:linear-gradient(purple, #6C5CE7); */
-  background-image: url(./01.png);
+  background-image: url(./eventimg/01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -396,7 +396,7 @@
   left: 0;
   height:11rem;
   width: 100%;
-  background: url(./wave.png);
+  background: url(./eventimg/wave1.png);
  
 
 
@@ -631,7 +631,7 @@
  #bg{
   justify-content: center;
   align-items: center;
-  background-image: url(./02.jpg);
+  background-image: url(./eventimg/02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -885,7 +885,7 @@ border-color: transparent transparent transparent #E94B3C;
     align-items: center;
     height: 110vh;
     flex-wrap: wrap;
-    background-image: url(./03.png );
+    background-image: url(./eventimg/003.png );
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -974,7 +974,7 @@ border-color: transparent transparent transparent #E94B3C;
     font-size:3.5em;
     font-family: 'Lora', serif;
     font-weight:400;
-    color: #55e7fc9c;
+    color: #ffffffe8;
     letter-spacing: 1.5px;
     text-transform: capitalize;
     margin-bottom: 6px;
